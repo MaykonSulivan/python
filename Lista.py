@@ -9,7 +9,7 @@ while True:
         valor = input('Valor: ')
         lista.append(valor)
     elif opcao == 'a':
-        indece_str = input('Escolja o índice para apagar:')
+        indece_str = input('Escolha o índice para apagar:')
 
         try:
             indice = int(indice_str)
